@@ -2,10 +2,12 @@
   "name": "202309-w5ch4-berta-marta-andru",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
